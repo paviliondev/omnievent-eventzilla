@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.name = "omnievent-eventzilla"
   spec.version = OmniEvent::Eventzilla::VERSION
   spec.authors = ["Angus McLeod"]
-  spec.email = ["angus@pavilion.tech"]
+  spec.email = ["development@pavilion.tech"]
 
   spec.summary = "OmniEvent Eventzilla strategy"
   spec.description = "An Eventzilla strategy for OmniEvent"
