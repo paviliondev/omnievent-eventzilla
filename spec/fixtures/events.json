@@ -1,0 +1,65 @@
+{
+    "pagination": [
+        {
+            "offset": 0,
+            "limit": 20,
+            "total": 2
+        }
+    ],
+    "events": [
+        {
+            "id": 2138989212,
+            "title": "Arts Contest",
+            "description": "Enter description of your event",
+            "currency": "$",
+            "start_date": "2018-06-15T00:00:00",
+            "start_time": "10:00",
+            "end_date": "2018-06-15T00:00:00",
+            "end_time": "23:00",
+            "time_zone": "Eastern Standard Time",
+            "tickets_sold": 0,
+            "tickets_total": 100,
+            "status": "Completed",
+            "show_remaining": false,
+            "twitter_hashtag": "",
+            "utc_offset": "-05:00",
+            "invite_code": "",
+            "url": "http://events.eventzilla.net/e/arts-contest",
+            "logo_url": "",
+            "bgimage_url": "https://eventzilla_polo.jpg",
+            "venue": "2110, Cambridge, MA, United States",
+            "dateid": 2138985706,
+            "categories": "Business,Social Events,Conferences",
+            "language": "en",
+            "description_html": "Event description\r\n \r\n",
+            "timezone_code": "EST"
+        },
+        {
+            "id": 2138988927,
+            "title": "HopScotch",
+            "description": "Enter description of your event",
+            "currency": "$",
+            "start_date": "2018-07-30T00:00:00",
+            "start_time": "10:00",
+            "end_date": "2018-07-30T00:00:00",
+            "end_time": "23:00",
+            "time_zone": "Eastern Standard Time",
+            "tickets_sold": 16,
+            "tickets_total": 100,
+            "status": "Completed",
+            "show_remaining": false,
+            "twitter_hashtag": "",
+            "utc_offset": "-05:00",
+            "invite_code": "",
+            "url": "http://events.eventzilla.net/e/HopScotch",
+            "logo_url": "",
+            "bgimage_url": "https://HopScotch.jpg",
+            "venue": "2110, Cambridge, MA, United States",
+            "dateid": 2138983295,
+            "categories": "Classes,Networking",
+            "language": "en",
+            "description_html": "Event description\r\n \r\n",
+            "timezone_code": "EST"
+        }
+    ]
+}
