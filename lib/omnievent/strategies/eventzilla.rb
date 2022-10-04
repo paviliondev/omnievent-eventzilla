@@ -14,15 +14,15 @@ module OmniEvent
       API_VERSION = "v2"
 
       def raw_events
-        @offset = 0
-        response = perform_request
+        offset = 0
+        response = perform_request(path: request_path(offset))
         events = response["events"]
         retrieved = events.size
         total = response["pagination"][0]["total"]
 
         while retrieved < total
-          @offset += 1
-          response = perform_request
+          offset += 1
+          response = perform_request(path: request_path(offset))
           events += response["events"]
           retrieved = events.size
         end
@@ -61,11 +61,11 @@ module OmniEvent
         { "x-api-key" => options.token }
       end
 
-      def request_path
+      def request_path(offset)
         path = "/api/#{API_VERSION}"
         path += "/events"
 
-        query_params = ["offset=#{@offset}"]
+        query_params = ["offset=#{offset}"]
         path += "?#{query_params.join("&")}"
 
         path
